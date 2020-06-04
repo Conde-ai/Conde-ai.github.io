@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../imagenes/fondo.JPG");
+    background-attachment: fixed;
+    font-family: 'Merienda One', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+.text1 {
+    flex: 1 200px;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 1px;
+    background-color: black;
+    padding:12px;
+    color: white;
+}
+
+header{
+    padding: 30px 0;
+}
+
+header .logo{
+    font-family: 'UnifrakturCook', cursive;
+    text-align: center;
+    color: yellow;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categorias a{
+    color: #808080;
+    margin: 18px 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+header .categorias a.activo{
+    color: #EFEFEF;
+}
+
+.video {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+.video1 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.video2 {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.video3 {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.video4 {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.video5 {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.video6 {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.video7 {
+    margin-top: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+
+.sliderdiv{
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 1px;
+    align-content: center;
+    justify-content: center;  
+}
+
+.mySlides{
+    
+    height: 100%;
+}
+
+.container-display {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    /*indicador*/
+    margin: 5px;
+    border: 1px dashed green;
+
+}
+
+
+
+.boton-slider {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+}
+
+.boton-slider:hover {
+    width: 30px;
+    height: 30px;
+    background-color: darkslategrey;
+}
+
+.fletxaDreta-slider {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    transform: translate(0%, -50%);
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.fletxaEsquerra-slider {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+       border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+
+/*.grid {
+	position: relative;
+	width: 100%;
+	opacity: 1;
+	transition: opacity 0.2s linear 0.1s;
+}
+
+.grid.imagenes-cargadas {
+	opacity: 1;
+}
+
+.grid .item {
+	position: absolute;
+	display: block;
+	padding: 0;
+	margin: 10px;
+	width: calc(33.333333% - 20px);
+}
+
+.grid .item-contenido {
+	position: relative;
+}
+
+.grid .item img {
+	width: 100%;
+	cursor: pointer;
+	vertical-align: top;
+}
+*/
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left:0;
+    padding: 6px;
+    text-align:center;
+    background-color:red;
+    color:white;
+
+}
+.text{
+    margin:auto;
+    padding:24px;
+    width: 75%;
+    color: white;
+    text-align:center
+}

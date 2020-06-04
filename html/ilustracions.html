@@ -1,0 +1,67 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PORTAFOLI EDUARD CONDEMINAS</title>
+    <link rel="stylesheet" href="../css/estil.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Merienda+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+        <div class="logo"><img src="../imagenes/CONDE_LOGO.PNG" width="700px"><p>Animador 2D e ilustrador</p></div>
+              
+        <div class="categorias" id="categorias">
+            <a href="../index.html">INICIO</a>
+            <a href="../html/sobre_mi.html">SOBRE MÍ</a>
+            <a href="#" class="activo">ILUSTRACIONES</a>
+            <a href="../html/animaciones.html">ANIMACIONES</a>
+            </div>
+            
+        </header>
+    </div>
+    
+     <div class="sliderdiv">
+            <div class="container-display">
+            <img class="mySlides" src="../imagenes/Bond.JPG" style="width:100%">
+            <img class="mySlides" src="../imagenes/4paredes.JPG" style="width:100%">
+            <img class="mySlides" src="../imagenes/mujer.JPG" style="width:100%">
+            <img class="mySlides" src="../imagenes/mujeres.JPG" style="width:100%">
+            <img class="mySlides" src="../imagenes/twins2.JPG" style="width:100%">
+            <img class="mySlides" src="../imagenes/samurai1.JPG" style="width:100%">
+            <img class="mySlides" src="../imagenes/scarlxrd.JPG" style="width:100%">
+
+
+            <button class="boton-slider fletxaDreta-slider" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="boton-slider fletxaEsquerra-slider" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+
+
+        <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+
+            function plusDivs(n) {
+                showDivs(slideIndex += n);
+            }
+
+            function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {
+                    slideIndex = 1
+                }
+                if (n < 1) {
+                    slideIndex = x.length
+                }
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                x[slideIndex - 1].style.display = "block";
+            }
+        </script>
+    </div>
+    </body>
+</html>
